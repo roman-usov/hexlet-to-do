@@ -7,10 +7,10 @@ const routes = {
   tasksPath: () => '/api/tasks',
 };
 
-const baseURL = 'https://web-js-frontend-architecture-complex-state-5832991.evaluator4-5.hexlet.io';
+// const baseURL = '';
 
-const fullURL = new URL(routes.tasksPath(), baseURL);
-// const fullURL = null;
+// const fullURL = new URL(routes.tasksPath(), baseURL);
+const fullURL = null;
 
 class APIError extends Error {
   constructor(message, code, status) {
