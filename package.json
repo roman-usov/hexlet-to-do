@@ -13,20 +13,23 @@
     "testEnvironment": "jsdom"
   },
   "dependencies": {
+    "axios": "*",
     "core-js": "*",
     "lodash": "*",
-    "axios": "*",
     "regenerator-runtime": "*"
   },
   "devDependencies": {
     "@jest/globals": "*",
+    "@pollyjs/adapter-node-http": "*",
+    "@pollyjs/core": "*",
     "@testing-library/dom": "^9.3.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/user-event": "^14.4.3",
+    "buffer": "^6.0.3",
     "parcel": "^2.9.3",
     "prettier": "2.8.8",
-    "@pollyjs/core": "*",
-    "@pollyjs/adapter-node-http": "*"
+    "process": "^0.11.10",
+    "url": "^0.11.1"
   },
   "author": "",
   "license": "ISC"

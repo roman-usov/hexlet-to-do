@@ -85,8 +85,8 @@ test('working process', async () => {
   const submit = await screen.findByRole('button', { name: /add/i });
   const input = await screen.findByRole('textbox');
 
-  await userEvent.type(input, 'new task');
-  await userEvent.click(submit);
+  await userEvent.default.type(input, 'new task');
+  await userEvent.default.click(submit);
 
   await waitFor(() => {
     const { getAllByRole } = within(tasksList());
@@ -97,9 +97,9 @@ test('working process', async () => {
     expect(data.items[0]).toEqual({ name: 'new task' });
   });
 
-  await userEvent.clear(input);
-  await userEvent.type(input, 'another task');
-  await userEvent.click(submit);
+  await userEvent.default.clear(input);
+  await userEvent.default.type(input, 'another task');
+  await userEvent.default.click(submit);
 
   await waitFor(() => {
     const { getAllByRole } = within(tasksList());

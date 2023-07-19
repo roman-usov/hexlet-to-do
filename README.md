@@ -51,4 +51,4 @@ const response = await axios.post(routes.tasksPath(), data); // data is an objec
 
 When initialized, the app makes a request to the server to get a list of tasks created earlier and displays them on the screen. 
 
-When a new task is added, the app send it to the server.
+When a new task is added, the app sends it to the server.
