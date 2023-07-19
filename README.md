@@ -4,7 +4,7 @@ The app comprises a form to add tasks and a list of tasks added via teh form.
 Each new task is added to the top of the list.
 
 Usage Example
-![CleanShot 2023-07-19 at 13.50.40.gif](..%2F..%2FDownloads%2FScreenshots%2FCleanShot%202023-07-19%20at%2013.50.40.gif)
+![CleanShot 2023-07-19 at 13.50.40.gif](https://ibb.co/6nGHhsB)
 
 Initial HTML:
 
