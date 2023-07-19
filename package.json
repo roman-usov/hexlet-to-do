@@ -1,0 +1,33 @@
+{
+  "name": "to-do-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --colors"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "dependencies": {
+    "core-js": "*",
+    "lodash": "*",
+    "axios": "*",
+    "regenerator-runtime": "*"
+  },
+  "devDependencies": {
+    "@jest/globals": "*",
+    "@testing-library/dom": "^9.3.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/user-event": "^14.4.3",
+    "parcel": "^2.9.3",
+    "prettier": "2.8.8",
+    "@pollyjs/core": "*",
+    "@pollyjs/adapter-node-http": "*"
+  },
+  "author": "",
+  "license": "ISC"
+}
